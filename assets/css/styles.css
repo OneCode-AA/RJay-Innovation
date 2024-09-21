@@ -318,9 +318,12 @@ textarea { width: 100%; }
 
   .contact-us-btn,
   .about-us-btn {
+    font-size: 1.1rem !important;
+    min-width: 15rem;
+    min-height: 3rem;
     font-size: larger;
-    padding: 15px 50px;
     border: 1px solid crimson;
+    border-radius: 5px;
   
   }
 
@@ -522,6 +525,9 @@ textarea { width: 100%; }
 
 
 
+@media (max-width: 768px) {
+
+}
 
 @media (max-width:1024px) {
 
